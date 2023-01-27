@@ -1,0 +1,266 @@
+@media (min-width:1440px) {
+  .header_burger {
+    display: none;
+  }
+
+  .interests_blocks {
+    width: 1110px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width:1250px) {
+  .interests_blocks {
+    width: 1110px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width:1440px) {
+  .header_burger {
+    display: none;
+  }
+}
+
+@media (max-width:1165px) {
+  #projects {
+    padding: 0 3.5%;
+  }
+}
+
+@media (max-width:1065px) {
+  .hero {
+    margin: 125px 3.5% 0 3.5%;
+  }
+
+  .interests_block_interest {
+    font-size: 16px;
+  }
+
+  .header_nav {
+    display: none;
+  }
+
+  .header_burger {
+    display: block;
+    margin-top: 20px;
+  }
+
+  .hero_section {
+    padding: 72px 7.5% 72px 7.5%;
+  }
+
+  .hero_section_info {
+    font-size: 16px;
+  }
+
+  .hero_section_imgbutton {
+    margin-top: 25px;
+  }
+
+  #interests {
+    margin-top: 280px;
+  }
+
+  #aboutme {
+    margin-top: 275px;
+  }
+
+  .aboutme_h1 {
+    font-size: 30px;
+  }
+
+  .headline {
+    font-size: 30px;
+  }
+
+  .headline_text {
+    font-size: 14px;
+  }
+
+  .aboutme_info {
+    font-size: 14px;
+    width: 470px;
+  }
+
+  .interests_blocks {
+    grid-auto-rows: 166px;
+  }
+}
+
+@media (max-width:744px) {
+  .hero {
+    margin: 100px 3.5% 0 3.5%;
+  }
+
+  .hero_section {
+    padding: 60px 11% 60px 11%;
+  }
+
+  .header_logo_name {
+    font-size: 30px;
+    margin-top: 5px;
+  }
+
+  .header_burger img {
+    width: 32px;
+    height: 22px;
+    margin-top: -5px;
+  }
+
+  .hero_section_imgbutton_buttons {
+    flex-flow: column;
+  }
+
+  .hero_getintouch_button {
+    margin-top: 5px;
+    width: 165px;
+  }
+
+  .hero_view_button {
+    width: 165px;
+  }
+
+  .projects_block_img_left, .projects_block_img_right {
+    width: 100%;
+  }
+
+  #aboutme {
+    width: 90%;
+    display: block;
+    text-align: center;
+    margin: 80px auto 0 auto;
+  }
+
+  .aboutme_info {
+    width: 88%;
+    margin: 0 auto;
+  }
+
+  .interests_blocks {
+    grid-auto-rows: 120px;
+  }
+
+  #interests {
+    margin-top:78px;
+  }
+
+  #projects {
+    margin-top: 80px;
+  }
+
+  #getintouch {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  
+  .projects_block {
+    display: block;
+  }
+
+}
+
+@media (max-width:400px) {
+  .hero_view_button {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width:375px) {
+  .header {
+    margin-top: -5px;
+  }
+
+  .hero_section_imgbutton_imgs * {
+    width: 25px;
+    height: 25px;
+  }
+
+  .hero_section {
+    padding: 18px 7% 0 7%;
+  }
+
+  .hero {
+    margin: 45px 6% 0 6%;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  .hero_getintouch_button {
+    margin-top: 10px;
+  }
+
+  .hero_hello {
+    font-size: 32px;
+  }
+
+  .hero_section_info {
+    font-size: 14px;
+  }
+
+  .hero_section_imgbutton {
+    margin-top: 27px;
+    padding-bottom: 15px;
+  }
+
+  .hero_section_imgbutton_buttons {
+    justify-content: center;
+  }
+
+  .interests_blocks {
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 77px;
+    gap: 10px;
+  }
+
+  .interests_block_interest {
+    border-radius: 10px;
+  }
+
+  #interests {
+    margin-top: 35px;
+  }
+
+  #projects {
+    margin-top: 65px;
+  }
+
+  #getintouch {
+    margin-top: 65px;
+    margin-bottom: 65px;
+  }
+
+  .headline_text_projects {
+    margin-bottom: -25px;
+    color: white;
+  }
+
+  .headline {
+    margin-bottom: 5px;
+  }
+
+  .headline_text {
+    margin-bottom: -20px;
+  }
+
+}
+
+@media (max-width:342px) {
+  .hero_section_imgbutton {
+    align-items: flex-start;
+  }
+
+  .header_logo_name_davkchv {
+    display: block;
+  }
+
+  .header_logo_name {
+    display: none;
+  }
+}
+
+@media (min-width:342px) {
+  .header_logo_name_davkchv {
+    display: none;
+  }
+}
