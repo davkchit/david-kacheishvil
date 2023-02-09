@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap");
+.header {
+  height: 90px;
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.logo {
+  color: #FFFFFF;
+  font-size: 45px;
+  font-style: italic;
+}
+
+.nav {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.nav * {
+  margin-left: 60px;
+}
+
+.main {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.hero {
+  background-color: #FFFFFF;
+  height: 370px;
+  width: 100%;
+}
+
+.main_hero {
+  margin-top: 165px;
+  border-radius: 40px;
+}
+
+.article {
+  padding: 100px;
+}
+
+.article_hello {
+  font-size: 36px;
+  font-style: italic;
+}
+
+.article_p {
+  font-size: 20px;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Noto Serif", serif;
+}
+
+body {
+  background-color: #0E1010;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
