@@ -38,24 +38,104 @@
   background-color: #FFFFFF;
   height: 370px;
   width: 100%;
+  border-radius: 40px;
 }
 
-.main_hero {
+.main__hero {
   margin-top: 165px;
-  border-radius: 40px;
 }
 
 .article {
   padding: 100px;
 }
 
-.article_hello {
+.article__hello {
   font-size: 36px;
   font-style: italic;
 }
 
-.article_p {
+.article__p {
   font-size: 20px;
+}
+
+.iconsbuttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 50px;
+}
+
+.buttons__viewprojects {
+  padding: 3px 35px;
+  background-color: #FFFFFF;
+  border: solid 1px #0E1010;
+  border-radius: 74px;
+  color: #0E1010;
+}
+
+.buttons__getintouch {
+  padding: 5px 50px;
+  background-color: #272D2B;
+  border-radius: 74px;
+  margin-left: 20px;
+}
+
+.aboutme {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 724px;
+  margin: 0 auto;
+  color: #FFFFFF;
+}
+
+.main__aboutme {
+  margin-top: 330px;
+}
+
+.aboutme__title {
+  font-size: 32px;
+  font-style: italic;
+}
+
+.aboutme__text {
+  max-width: 540px;
+  font-size: 20px;
+}
+
+.main_interests {
+  margin-top: 340px;
+}
+
+.blocks {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 15px 1fr 15px 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 166px;
+  gap: 15px;
+}
+
+.blocks__item {
+  background-color: #272D2B;
+  border-radius: 25px;
+  font-size: 20px;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 * {

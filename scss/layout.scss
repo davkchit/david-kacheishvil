@@ -1,3 +1,5 @@
+@import "./components.scss";
+
 .header {
   height: 90px;
   width: 90%;
@@ -23,7 +25,7 @@
 }
 
 .main {
-  max-width: 1110px;
+  max-width: $mx1110;
   margin: $auto;
 }
 
@@ -31,22 +33,83 @@
   background-color: $white;
   height: 370px;
   width: 100%;
+  border-radius: 40px;
 }
 
-.main_hero {
+.main__hero {
   margin-top: 165px;
-  border-radius: 40px;
 }
 
 .article {
   padding: 100px;
 }
 
-.article_hello {
+.article__hello {
   font-size: $f36;
   font-style: $italic;
 }
 
-.article_p {
+.article__p {
   font-size: $f20;
+}
+
+.iconsbuttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.buttons__viewprojects {
+  @include viewprojects;
+}
+
+.buttons__getintouch {
+  @include getintouch;
+}
+
+.aboutme {
+  display: flex;
+  justify-content: space-between;
+  max-width: 724px;
+  margin: $auto;
+  color: $white;
+}
+
+.main__aboutme {
+  margin-top: 330px;
+}
+
+.aboutme__title {
+  font-size: $f32;
+  font-style: $italic;
+}
+
+.aboutme__text {
+  max-width: 540px;
+  font-size: $f20;
+}
+
+.main_interests {
+  margin-top: 340px;
+}
+
+.interests {
+
+}
+
+.blocks {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-auto-rows: 166px;
+  gap: 15px;
+}
+
+.blocks__item {
+  background-color: $grey;
+  border-radius: 25px;
+  font-size: $f20;
+  color: $white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -1,0 +1,17 @@
+
+@mixin viewprojects {
+  padding: 3px 35px;
+  background-color: $white;
+  border: solid 1px $black;
+  border-radius: 74px;
+  color: $black;
+}
+
+@mixin getintouch {
+    padding: 5px 50px;
+    background-color: $grey;
+    border-radius: 74px;
+    margin-left: 20px;
+}
+
+
