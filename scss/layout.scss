@@ -2,7 +2,7 @@
 
 .header {
   height: 90px;
-  width: 90%;
+  width: 93%;
   margin: $auto;
   display: flex;
   align-items: center;
@@ -27,6 +27,7 @@
 .main {
   max-width: $mx1110;
   margin: $auto;
+  padding: $p3d5;
 }
 
 .hero {
@@ -56,6 +57,7 @@
 .iconsbuttons {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin-top: 50px;
 }
 
@@ -94,7 +96,15 @@
 }
 
 .interests {
+  
+}
 
+.interests__title {
+  @include title;
+}
+
+.interests__text {
+  @include text;
 }
 
 .blocks {
@@ -112,4 +122,59 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.projects {
+
+}
+
+.main__projects {
+  margin-top: 310px;
+}
+
+.projects__title {
+  @include title;
+}
+
+.projects__text {
+  @include text;
+}
+
+.grid__item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px;
+  gap: 15px;
+}
+
+.grid__img {
+  @include grid__img;
+}
+
+.getintouch__title {
+  @include title;
+}
+
+.getintouch__text {
+  @include text;
+}
+
+.getintouch__icons {
+
+}
+
+.footer {
+  
+}
+
+.main__footer {
+
+}
+
+.footer__nav {
+
+}
+
+.footer__nav * {
+
 }

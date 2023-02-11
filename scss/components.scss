@@ -14,4 +14,32 @@
     margin-left: 20px;
 }
 
+@mixin title {
+  color: $white;
+  font-style: $italic;
+  margin: 0 auto 30px auto;
+  font-size: $f36;
+  text-align: center;
+}
 
+@mixin text {
+  font-size: $f20;
+  color: $white;
+  max-width: 561px;
+  margin: 0 auto 45px auto;
+  text-align: center;
+}
+
+@mixin grid__item {
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+@mixin grid__img {
+  max-width: 100%;
+  max-height: 330px;
+}
+
+@mixin grid__text {
+
+}
