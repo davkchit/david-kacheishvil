@@ -151,6 +151,18 @@
   @include grid__img;
 }
 
+.text__header {
+  @include header;
+}
+
+.text__title {
+  @include title;
+}
+
+.text__p {
+  @include content;
+}
+
 .getintouch__title {
   @include title;
 }

@@ -40,6 +40,17 @@
   max-height: 330px;
 }
 
-@mixin grid__text {
+@mixin header {
+  font-size: $f20;
+  color: $grey;
+}
 
+@mixin header-title {
+  font-size: $f32;
+  color: $white;
+}
+
+@mixin content {
+  color: $white;
+  font-size: $f20;
 }
