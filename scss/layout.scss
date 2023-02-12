@@ -24,10 +24,13 @@
   margin-left: 60px;
 }
 
+.nav__getintouch {
+  @include getintouch__button;
+}
+
 .main {
   max-width: $mx1110;
   margin: $auto;
-  padding: $p3d5;
 }
 
 .hero {
@@ -59,6 +62,10 @@
   justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 50px;
+}
+
+.icons .icons__icon:not(:first-child) {
+  margin-left: 5px;
 }
 
 .buttons__viewprojects {
@@ -95,10 +102,6 @@
   margin-top: 340px;
 }
 
-.interests {
-  
-}
-
 .interests__title {
   @include title;
 }
@@ -124,10 +127,6 @@
   align-items: center;
 }
 
-.projects {
-
-}
-
 .main__projects {
   margin-top: 310px;
 }
@@ -140,15 +139,23 @@
   @include text;
 }
 
-.grid__item {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 200px;
-  gap: 15px;
+.grid .grid__item:not(:first-child) {
+  margin-top: 120px;
 }
 
-.grid__img {
-  @include grid__img;
+.grid__item {
+  @include grid__item;
+}
+
+.grid__img-reverse {
+  order: 1
+}
+
+.text__icons {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
+  margin-top: 30px;
 }
 
 .text__header {
@@ -156,11 +163,20 @@
 }
 
 .text__title {
-  @include title;
+  @include headertitle;
 }
 
 .text__p {
   @include content;
+}
+
+.text__button {
+  @include viewcode;
+}
+
+.main__getintouch {
+  margin-top: 250px;
+  margin-bottom: 250px;
 }
 
 .getintouch__title {
@@ -172,21 +188,17 @@
 }
 
 .getintouch__icons {
-
+  @include getintouch__icons;
 }
 
-.footer {
-  
-}
-
-.main__footer {
-
+.getintouch__icons .getintouch__img:not(:first-child) {
+  margin-left: 60px;
 }
 
 .footer__nav {
-
+  @include footer__title;
 }
 
-.footer__nav * {
-
+.footer__p {
+  @include footer__text;
 }

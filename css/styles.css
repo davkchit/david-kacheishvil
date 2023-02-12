@@ -29,10 +29,18 @@
   margin-left: 60px;
 }
 
+.nav__getintouch {
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #272D2B;
+  padding: 15px 28px;
+  border-radius: 41px;
+  text-transform: lowercase;
+}
+
 .main {
   max-width: 1110px;
   margin: 0 auto;
-  padding: 0 3.5%;
 }
 
 .hero {
@@ -69,6 +77,10 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-top: 50px;
+}
+
+.icons .icons__icon:not(:first-child) {
+  margin-left: 5px;
 }
 
 .buttons__viewprojects {
@@ -177,13 +189,17 @@
   text-align: center;
 }
 
+.grid .grid__item:not(:first-child) {
+  margin-top: 120px;
+}
+
 .grid__item {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 15px 1fr;
   grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: 200px;
-  grid-template-rows: 200px;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
   gap: 15px;
 }
 
@@ -197,9 +213,22 @@
   -ms-grid-column: 3;
 }
 
-.grid__img {
-  max-width: 100%;
-  max-height: 330px;
+.grid__img-reverse {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.text__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 30px;
 }
 
 .text__header {
@@ -208,16 +237,27 @@
 }
 
 .text__title {
+  font-size: 32px;
   color: #ffffff;
-  font-style: italic;
-  margin: 0 auto 30px auto;
-  font-size: 36px;
-  text-align: center;
 }
 
 .text__p {
   color: #ffffff;
-  font-size: 20px;
+  font-size: 18px;
+}
+
+.text__button {
+  color: #ffffff;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 10px 48px;
+  background-color: #272D2B;
+  border-radius: 41px;
+}
+
+.main__getintouch {
+  margin-top: 250px;
+  margin-bottom: 250px;
 }
 
 .getintouch__title {
@@ -234,6 +274,33 @@
   max-width: 561px;
   margin: 0 auto 45px auto;
   text-align: center;
+}
+
+.getintouch__icons {
+  margin: 0 auto 30px auto;
+  text-align: center;
+}
+
+.getintouch__icons .getintouch__img:not(:first-child) {
+  margin-left: 60px;
+}
+
+.footer__nav {
+  font-size: 18px;
+  max-width: 405px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 30px auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__p {
+  text-align: center;
+  margin: 0 auto 45px auto;
+  color: #ffffff;
 }
 
 * {

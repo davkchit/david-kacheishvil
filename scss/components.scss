@@ -1,3 +1,11 @@
+@mixin getintouch__button {
+  font-size: $f18;
+  color:$white;
+  background-color:$grey;
+  padding: 15px 28px;
+  border-radius: 41px;
+  text-transform: lowercase;
+}
 
 @mixin viewprojects {
   padding: 3px 35px;
@@ -31,13 +39,19 @@
 }
 
 @mixin grid__item {
+  display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10px;
+  grid-template-rows: auto;
+  gap: 15px;
 }
 
-@mixin grid__img {
-  max-width: 100%;
-  max-height: 330px;
+@mixin viewcode {
+  color: $white;
+  font-size: $f14;
+  text-transform: uppercase;
+  padding: 10px 48px;
+  background-color: $grey;
+  border-radius: 41px;
 }
 
 @mixin header {
@@ -45,12 +59,31 @@
   color: $grey;
 }
 
-@mixin header-title {
+@mixin headertitle {
   font-size: $f32;
   color: $white;
 }
 
 @mixin content {
   color: $white;
-  font-size: $f20;
+  font-size: $f18;
+}
+
+@mixin getintouch__icons {
+  margin: 0 auto 30px auto;
+  text-align: center;
+}
+
+@mixin footer__title {
+  font-size: $f18;
+  max-width: 405px;
+  display: flex;
+  margin: 30px auto;
+  justify-content: space-between;
+}
+
+@mixin footer__text {
+  text-align: center;
+  margin: 0 auto 45px auto;
+  color:$white;
 }
