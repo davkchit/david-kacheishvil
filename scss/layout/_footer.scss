@@ -1,0 +1,7 @@
+.footer__nav {
+  @include footer__title;
+}
+
+.footer__p {
+  @include footer__text;
+}

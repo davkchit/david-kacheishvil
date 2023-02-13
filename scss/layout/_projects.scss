@@ -1,0 +1,63 @@
+.main__projects {
+  margin-top: 27%;
+}
+
+.projects__title {
+  @include title;
+}
+
+.projects__text {
+  @include text;
+}
+
+.grid .grid__item:not(:first-child) {
+  margin-top: 10%;
+}
+
+.grid__item {
+  @include grid__item;
+}
+
+.grid__img {
+  @include desktop {
+   width: 588px;
+   height: 272px;
+  }
+
+  @include large-tablet {
+    max-width: 100%;
+  }
+
+}
+
+.grid__img-reverse {
+  order: 1
+}
+
+.text__icons {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.text__header {
+  @include header;
+}
+
+.text__title {
+  @include headertitle;
+}
+
+.text__p {
+  @include content;
+  @include large-tablet {
+    font-size: $f16;
+  }
+}
+
+.text__button {
+  @include viewcode;
+}
+
+

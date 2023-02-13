@@ -1,0 +1,44 @@
+.header {
+  height: 90px;
+  width: 93%;
+  margin: $auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: $white;
+  font-size: $f45;
+  font-style: $italic;
+}
+
+.nav {
+  font-size: $f18;
+  text-transform: uppercase;
+}
+
+.nav * {
+  margin-left: 60px;
+  @include large-tablet {
+    @include none-display;
+  }
+}
+
+.nav__getintouch {
+  @include getintouch__button;
+}
+
+.burger {
+  @include large-desktop {
+    @include none-display;
+  }
+  
+  @include desktop {
+    @include none-display;
+  }
+
+  @include large-tablet {
+    @include display-block;
+  }
+}
