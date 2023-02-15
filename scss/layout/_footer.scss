@@ -1,7 +1,13 @@
 .footer__nav {
-  @include footer__title;
+  font-size: $f18;
+  max-width: 405px;
+  display: flex;
+  margin: 2.5% auto;
+  justify-content: space-between;
 }
 
-.footer__p {
-  @include footer__text;
+.footer__text {
+  text-align: center;
+  margin: 0 auto 0 auto;
+  color:$white;
 }

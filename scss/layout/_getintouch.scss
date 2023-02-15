@@ -1,20 +1,14 @@
-.getintouch__title {
-  @include title;
-}
-
-.getintouch__text {
-  @include text;
+.main__getintouch {
+  margin-top: 295px;
+  margin-bottom: 200px;
 }
 
 .getintouch__icons {
-  @include getintouch__icons;
+  margin: 0 auto 30px auto;
+  text-align: center;
 }
 
 .getintouch__icons .getintouch__img:not(:first-child) {
   margin-left: 60px;
 }
 
-.main__getintouch {
-  margin-top: 19%;
-  margin-bottom: 250px;
-}

@@ -5,37 +5,37 @@
 }
 
 .main__hero {
-  margin-top:15%;
+  margin-top: 165px;
 }
 
-.article {
+.hero__content {
   padding: 8%;
 }
 
-.article__hello {
+.hero__hello {
   font-size: $f36;
   font-style: $italic;
 }
 
-.article__p {
+.hero__p {
   font-size: $f20;
 }
 
-.iconsbuttons {
+.hero__iconsbuttons {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 3%;
 }
 
-.icons .icons__icon:not(:first-child) {
+.hero__icons .hero__icon:not(:first-child) {
   margin-left: 5px;
 }
 
-.buttons__viewprojects {
-  @include viewprojects;
+.hero__viewprojects {
+  @include button__viewprojects;
 }
 
-.buttons__getintouch {
-  @include getintouch;
+.hero__getintouch {
+  @include button__hero__getintouch;
 }

@@ -1,63 +1,55 @@
 .main__projects {
-  margin-top: 27%;
+  margin-top: 310px;
 }
 
-.projects__title {
-  @include title;
-}
-
-.projects__text {
-  @include text;
-}
-
-.grid .grid__item:not(:first-child) {
+.projects__items .project__item:not(:first-child) {
   margin-top: 10%;
 }
 
-.grid__item {
-  @include grid__item;
+.project__item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 15px;
 }
 
-.grid__img {
-  @include desktop {
-   width: 588px;
-   height: 272px;
-  }
+.project__img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 
-  @include large-tablet {
-    max-width: 100%;
-  }
-
+  background-image: url(../../imgs/img/Rest.jpg);
 }
 
-.grid__img-reverse {
+.project__img_reverse {
   order: 1
 }
 
-.text__icons {
+.project__icons {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-top: 30px;
+  margin-top: 3%;
 }
 
-.text__header {
-  @include header;
+.project__headline {
+  font-size: $f20;
+  color: $grey;
 }
 
-.text__title {
-  @include headertitle;
+.project__head {
+  font-size: $f32;
+  color: $white;
 }
 
-.text__p {
-  @include content;
-  @include large-tablet {
-    font-size: $f16;
-  }
+.project__text {
+  color: $white;
+  font-size: $f16;
+  max-width: 445px;
 }
 
-.text__button {
-  @include viewcode;
+.project__button {
+  @include button__viewcode;
 }
 
 

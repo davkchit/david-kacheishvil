@@ -1,13 +1,13 @@
-@mixin getintouch__button {
+@mixin button__getintouch {
   font-size: $f18;
   color:$white;
   background-color:$grey;
-  padding: 15px 28px;
+  padding: 8px 28px;
   border-radius: 41px;
   text-transform: lowercase;
 }
 
-@mixin viewprojects {
+@mixin button__viewprojects {
   padding: 3px 35px;
   background-color: $white;
   border: solid 1px $black;
@@ -15,76 +15,19 @@
   color: $black;
 }
 
-@mixin getintouch {
+@mixin button__hero__getintouch {
     padding: 5px 50px;
     background-color: $grey;
     border-radius: 74px;
     margin-left: 20px;
 }
 
-@mixin title {
-  color: $white;
-  font-style: $italic;
-  margin: 0 auto 30px auto;
-  font-size: $f36;
-  text-align: center;
-}
 
-@mixin text {
-  font-size: $f20;
-  color: $white;
-  max-width: 561px;
-  margin: 0 auto 45px auto;
-  text-align: center;
-}
-
-@mixin grid__item {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
-  gap: 15px;
-}
-
-@mixin viewcode {
+@mixin button__viewcode {
   color: $white;
   font-size: $f14;
   text-transform: uppercase;
   padding: 10px 48px;
   background-color: $grey;
   border-radius: 41px;
-}
-
-@mixin header {
-  font-size: $f20;
-  color: $grey;
-}
-
-@mixin headertitle {
-  font-size: $f32;
-  color: $white;
-}
-
-@mixin content {
-  color: $white;
-  font-size: $f18;
-  max-width: 445px;
-}
-
-@mixin getintouch__icons {
-  margin: 0 auto 30px auto;
-  text-align: center;
-}
-
-@mixin footer__title {
-  font-size: $f18;
-  max-width: 405px;
-  display: flex;
-  margin: 30px auto;
-  justify-content: space-between;
-}
-
-@mixin footer__text {
-  text-align: center;
-  margin: 0 auto 45px auto;
-  color:$white;
 }

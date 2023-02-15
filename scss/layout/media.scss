@@ -1,0 +1,32 @@
+.title, .aboutme__title {
+  @include large-tablet {
+    font-size: $f32;
+    }
+
+  @include mobile {
+    font-size: $f28;
+  }
+}
+
+.text, .aboutme__text {
+  @include large-tablet {
+    font-size: $f16;
+  }
+}
+
+.main__aboutme, .main__getintouch, .main_interests, .main__projects {
+  @include large-tablet {
+    margin-top: 220px;
+  }
+}
+
+@include desktop {
+  .project__img {
+  max-width: 588px;
+  height: auto;
+}
+ }
+
+.project__img {
+  max-width: 100%;
+}

@@ -26,10 +26,11 @@
 }
 
 .nav__getintouch {
-  @include getintouch__button;
+  @include button__getintouch;
 }
 
 .burger {
+
   @include large-desktop {
     @include none-display;
   }
@@ -41,4 +42,9 @@
   @include large-tablet {
     @include display-block;
   }
+}
+
+.burger:hover {
+  transition: all .55s ease;
+  transform: rotate(360deg);
 }
