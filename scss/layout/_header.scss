@@ -2,9 +2,8 @@
   height: 90px;
   width: 93%;
   margin: $auto;
-  display: flex;
+  @include space-between;
   align-items: center;
-  justify-content: space-between;
 }
 
 .logo {
@@ -30,7 +29,6 @@
 }
 
 .burger {
-
   @include large-desktop {
     @include none-display;
   }
