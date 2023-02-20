@@ -21,6 +21,10 @@
   font-size: $f20;
 }
 
+.hero__buttons {
+  display: flex;
+}
+
 .hero__iconsbuttons {
   display: flex;
   justify-content: space-between;

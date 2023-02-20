@@ -1,3 +1,32 @@
+@include large-desktop {
+  .title,
+  .aboutme__title {
+    font-size: $f32;
+  }
+}
+
+@include desktop {
+  .project__img {
+    max-width: 588px;
+    height: auto;
+  }
+}
+
+@include large-tablet {
+
+  .text,
+  .aboutme__text {
+    font-size: $f16;
+  }
+
+  .main__aboutme,
+  .main__getintouch,
+  .main_interests,
+  .main__projects {
+    margin-top: 220px;
+  }
+}
+
 @include tablet {
   .main__aboutme {
     display: block;
@@ -6,83 +35,67 @@
 
   .aboutme__text {
     margin: 0 auto;
-}
-
-
-}
-
-
-
-
-.title, .aboutme__title {
-  @include large-tablet {
-    font-size: $f32;
-    }
-
-  @include mobile {
-    font-size: $f28;
   }
-}
 
-
-
-
-
-.text, .aboutme__text {
-  @include large-tablet {
-    font-size: $f16;
-  }
-}
-
-.main__aboutme, .main__getintouch, .main_interests, .main__projects {
-  @include large-tablet {
-    margin-top: 220px;
-  }
-}
-
-@include desktop {
-  .project__img {
-  max-width: 588px;
-  height: auto;
-}
- }
-
-
-.project__img {
-  max-width: 100%;
-}
-
-.main__hero {
-  @include tablet {
+  .main__hero {
     margin-top: 100px;
   }
-}
 
-.main__aboutme {
-  @include tablet {
+  .main_interests,
+  .main__projects {
+    margin-top: 30px;
+  }
+
+  .main__getintouch {
+    margin-top: 90px;
+    margin-bottom: 150px;
+  }
+
+  .interests__blocks {
+    grid-auto-rows: 110px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero__buttons {
+    flex-flow: column;
+  }
+
+  .hero__getintouch {
+    margin-top: 10px;
+  }
+
+  .hero__getintouch {
+    margin-left: 0px;
+  }
+
+  .main__aboutme {
     margin-top: 100px;
   }
-}
 
-.aboutme__text {
-  @include tablet {
+  .aboutme__text {
     font-size: $f14;
   }
+
 }
 
-.main__hero {
-  @include mobile {
+@include mobile {
+  .title,
+  .aboutme__title {
+    font-size: $f28;
+  }
+
+  .main__hero {
     height: auto;
   }
 }
 
 .logo__david {
-  @media (min-width:$tablet) {
-    display: block;
+  @include tablet {
+    display: none;
   }
 
-  @media (max-width:$tablet) {
-    display: none;
+  @media (min-width:$tablet) {
+    display: block;
   }
 }
 
@@ -91,47 +104,7 @@
     display: none;
   }
 
-  @media (max-width:$tablet) {
+  @include tablet {
     display: block;
   }
 }
-
-.main_interests,.main__projects {
-  @include tablet {
-    margin-top: 30px;
-  }
-}
-
-.main__getintouch {
-  @include tablet {
-    margin-top: 90px;
-    margin-bottom: 150px;
-  }
-}
-
-.interests__blocks {
-  @include tablet {
-    grid-auto-rows: 110px;
-    grid-template-columns: repeat(2,1fr);
-  }
-}
-
-.hero__buttons {
-  @include tablet {
-    flex-flow: column;
-  }
-}
-
-.hero__getintouch {
-  @include tablet {
-    margin-top: 10px;
-  }
-}
-
-.hero__getintouch {
-  @include tablet {
-    margin-left: 0px;
-  }
-}
-
-

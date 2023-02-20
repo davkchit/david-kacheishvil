@@ -22,7 +22,7 @@
 }
 
 .project__icons {
-  @include justify-content;
+  @include space-between;
   @include wrap;
   margin-top: 3%;
 }
@@ -48,7 +48,7 @@
 }
 
 .project__img_john {
-  background-image: url(../../imgs/img/john.jpg);
+  background-image: url(../../imgs/img/MovieBox.jpg);
 }
 
 .project__img_portfolio {

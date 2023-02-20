@@ -1,9 +1,8 @@
 .footer__nav {
   font-size: $f18;
   max-width: 405px;
-  display: flex;
+  @include space-between;
   margin: 2.5% auto;
-  justify-content: space-between;
 }
 
 .footer__text {
