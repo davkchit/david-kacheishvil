@@ -120,9 +120,17 @@
 }
 
 .hero__buttons {
-  display: flex;
-  align-items: flex-start;
+  @include tablet {
+    flex-flow: column;
+  }
 }
+
+.hero__getintouch {
+  @include tablet {
+    margin-top: 10px;
+  }
+}
+
 
 .hero__icons .hero__icon:not(:first-child) {
   @include tablet {
