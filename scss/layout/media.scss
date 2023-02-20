@@ -119,9 +119,21 @@
   }
 }
 
-.hero__iconsbuttons {
+.hero__buttons {
+  display: flex;
+  align-items: flex-start;
+}
+
+.hero__icons .hero__icon:not(:first-child) {
   @include tablet {
-    flex-flow: row nowrap;
-    justify-content: space-between;
+    margin-left: 0;
   }
 }
+
+.hero__getintouch {
+  @include tablet {
+    margin-left: 0px;
+  }
+}
+
+

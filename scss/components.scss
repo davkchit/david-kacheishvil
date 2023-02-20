@@ -8,15 +8,23 @@
 }
 
 @mixin button__viewprojects {
-  padding: 3px 35px;
+  width: 168px;
+  height: 29px;
   background-color: $white;
   border: solid 1px $black;
   border-radius: 74px;
   color: $black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @mixin button__hero__getintouch {
-    padding: 5px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 165px;
+    height: 30px;
     background-color: $grey;
     border-radius: 74px;
     margin-left: 20px;
