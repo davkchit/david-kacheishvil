@@ -257,6 +257,7 @@
   font-size: 20px;
   color: #ffffff;
   font-weight: 700;
+  text-align: center;
 }
 
 .main__projects {
@@ -291,7 +292,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url(../../imgs/img/Rest.jpg);
 }
 
 .project__img_reverse {
@@ -335,6 +335,18 @@
   padding: 10px 48px;
   background-color: #272D2B;
   border-radius: 41px;
+}
+
+.project__img_john {
+  background-image: url(../../imgs/img/john.jpg);
+}
+
+.project__img_portfolio {
+  background-image: url(../../imgs/img/portfolio.jpg);
+}
+
+.project__img_nft {
+  background-image: url(../../imgs/img/nft.jpg);
 }
 
 @media (max-width: 1130px) {
@@ -472,12 +484,6 @@
 @media (max-width: 744px) {
   .hero__getintouch {
     margin-top: 10px;
-  }
-}
-
-@media (max-width: 744px) {
-  .hero__icons .hero__icon:not(:first-child) {
-    margin-left: 0;
   }
 }
 

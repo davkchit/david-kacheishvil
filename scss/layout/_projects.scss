@@ -17,8 +17,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
-  background-image: url(../../imgs/img/Rest.jpg);
 }
 
 .project__img_reverse {
@@ -52,4 +50,14 @@
   @include button__viewcode;
 }
 
+.project__img_john {
+  background-image: url(../../imgs/img/john.jpg);
+}
 
+.project__img_portfolio {
+  background-image: url(../../imgs/img/portfolio.jpg);
+}
+
+.project__img_nft {
+  background-image: url(../../imgs/img/nft.jpg);
+}

@@ -131,13 +131,6 @@
   }
 }
 
-
-.hero__icons .hero__icon:not(:first-child) {
-  @include tablet {
-    margin-left: 0;
-  }
-}
-
 .hero__getintouch {
   @include tablet {
     margin-left: 0px;
