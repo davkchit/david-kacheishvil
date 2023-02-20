@@ -1,0 +1,44 @@
+.hero {
+  background-color: $white;
+  width: 100%;
+  border-radius: 40px;
+}
+
+.main__hero {
+  margin-top: 165px;
+}
+
+.hero__content {
+  padding: 8%;
+}
+
+.hero__hello {
+  font-size: $f36;
+  font-style: $italic;
+}
+
+.hero__p {
+  font-size: $f20;
+}
+
+.hero__buttons {
+  display: flex;
+}
+
+.hero__iconsbuttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
+}
+
+.hero__icons .hero__icon:not(:first-child) {
+  margin-left: 5px;
+}
+
+.hero__viewprojects {
+  @include button__viewprojects;
+}
+
+.hero__getintouch {
+  @include button__hero__getintouch;
+}

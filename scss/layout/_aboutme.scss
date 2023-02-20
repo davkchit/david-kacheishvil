@@ -1,0 +1,23 @@
+.aboutme {
+  @include space-between;
+  max-width: 724px;
+  gap: 10px;
+  margin: $auto;
+  color: $white;
+}
+
+.main__aboutme {
+  margin-top: 365px;
+}
+
+.aboutme__title {
+  font-size: $f32;
+  font-style: $italic;
+}
+
+.aboutme__text {
+  max-width: 540px;
+  font-size: $f20;
+}
+
+

@@ -1,0 +1,479 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+.aboutme {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 724px;
+  gap: 10px;
+  margin: 0 auto;
+  color: #ffffff;
+}
+
+.main__aboutme {
+  margin-top: 365px;
+}
+
+.aboutme__title {
+  font-size: 32px;
+  font-style: italic;
+}
+
+.aboutme__text {
+  max-width: 540px;
+  font-size: 20px;
+}
+
+.footer__nav {
+  font-size: 18px;
+  max-width: 405px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 2.5% auto;
+}
+
+.footer__text {
+  text-align: center;
+  margin: 0 auto 0 auto;
+  color: #ffffff;
+}
+
+.main__getintouch {
+  margin-top: 295px;
+  margin-bottom: 200px;
+}
+
+.getintouch__icons {
+  margin: 0 auto 30px auto;
+  text-align: center;
+}
+
+.getintouch__icons .getintouch__img:not(:first-child) {
+  margin-left: 60px;
+}
+
+.hero {
+  background-color: #ffffff;
+  width: 100%;
+  border-radius: 40px;
+}
+
+.main__hero {
+  margin-top: 165px;
+}
+
+.hero__content {
+  padding: 8%;
+}
+
+.hero__hello {
+  font-size: 36px;
+  font-style: italic;
+}
+
+.hero__p {
+  font-size: 20px;
+}
+
+.hero__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero__iconsbuttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 3%;
+}
+
+.hero__icons .hero__icon:not(:first-child) {
+  margin-left: 5px;
+}
+
+.hero__viewprojects {
+  width: 168px;
+  height: 29px;
+  background-color: #ffffff;
+  border: solid 1px #0E1010;
+  border-radius: 74px;
+  color: #0E1010;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero__getintouch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 165px;
+  height: 30px;
+  background-color: #272D2B;
+  border-radius: 74px;
+  margin-left: 20px;
+}
+
+.header {
+  height: 90px;
+  width: 93%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo {
+  color: #ffffff;
+  font-size: 45px;
+  font-style: italic;
+}
+
+.nav {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.nav * {
+  margin-left: 60px;
+}
+@media (max-width: 1130px) {
+  .nav * {
+    display: none;
+  }
+}
+
+.nav__getintouch {
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #272D2B;
+  padding: 8px 28px;
+  border-radius: 41px;
+  text-transform: lowercase;
+}
+
+.burger:hover {
+  -webkit-transition: all 0.55s ease;
+  transition: all 0.55s ease;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.main {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+@media (max-width: 1130px) {
+  .main {
+    padding: 0 3.5%;
+  }
+}
+
+.main_interests {
+  margin-top: 250px;
+}
+
+.title {
+  color: #ffffff;
+  font-style: italic;
+  margin: 0 auto 1.5% auto;
+  font-size: 36px;
+  text-align: center;
+}
+
+.text {
+  font-size: 20px;
+  color: #ffffff;
+  max-width: 561px;
+  margin: 0 auto 2% auto;
+  text-align: center;
+}
+
+.interests__blocks {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 15px 1fr 15px 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  grid-auto-rows: minmax(100px, 200px);
+}
+
+.interest__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #272D2B;
+  border-radius: 25px;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center;
+}
+
+.main__projects {
+  margin-top: 310px;
+}
+
+.projects__items .project__item:not(:first-child) {
+  margin-top: 10%;
+}
+
+.project__item {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 15px 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+  gap: 15px;
+}
+
+.project__item > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+
+.project__item > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+
+.project__img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.project__img_reverse {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.project__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 3%;
+}
+
+.project__headline {
+  font-size: 20px;
+  color: #272D2B;
+}
+
+.project__head {
+  font-size: 32px;
+  color: #ffffff;
+}
+
+.project__text {
+  color: #ffffff;
+  font-size: 16px;
+  max-width: 445px;
+}
+
+.project__button {
+  color: #ffffff;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 10px 48px;
+  background-color: #272D2B;
+  border-radius: 41px;
+}
+
+.project__img {
+  max-width: 100%;
+}
+
+.project__img_john {
+  background-image: url(../../imgs/img/MovieBox.jpg);
+}
+
+.project__img_portfolio {
+  background-image: url(../../imgs/img/portfolio.jpg);
+}
+
+.project__img_nft {
+  background-image: url(../../imgs/img/nft.jpg);
+}
+
+@media (min-width: 1440px) {
+  .title,
+.aboutme__title {
+    font-size: 32px;
+  }
+}
+@media (max-width: 1440px) {
+  .project__img {
+    max-width: 588px;
+    height: auto;
+  }
+}
+@media (max-width: 1130px) {
+  .text,
+.aboutme__text {
+    font-size: 16px;
+  }
+  .main__aboutme,
+.main__getintouch,
+.main_interests,
+.main__projects {
+    margin-top: 220px;
+  }
+}
+@media (max-width: 744px) {
+  .main__aboutme {
+    display: block;
+    text-align: center;
+  }
+  .aboutme__text {
+    margin: 0 auto;
+  }
+  .main__hero {
+    margin-top: 100px;
+  }
+  .main_interests,
+.main__projects {
+    margin-top: 30px;
+  }
+  .main__getintouch {
+    margin-top: 90px;
+    margin-bottom: 150px;
+  }
+  .interests__blocks {
+    grid-auto-rows: 110px;
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .hero__buttons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+  .hero__getintouch {
+    margin-top: 10px;
+  }
+  .hero__getintouch {
+    margin-left: 0px;
+  }
+  .main__aboutme {
+    margin-top: 100px;
+  }
+  .aboutme__text {
+    font-size: 14px;
+  }
+}
+@media (max-width: 375px) {
+  .title,
+.aboutme__title {
+    font-size: 28px;
+  }
+  .main__hero {
+    height: auto;
+  }
+}
+@media (max-width: 744px) {
+  .project__item {
+    display: block;
+  }
+}
+.project__item .project__img {
+  width: 100%;
+  height: 250px;
+}
+
+@media (min-width: 1440px) {
+  .burger {
+    display: none;
+  }
+}
+@media (max-width: 1440px) {
+  .burger {
+    display: none;
+  }
+}
+@media (max-width: 1130px) {
+  .burger {
+    display: block;
+  }
+}
+
+@media (max-width: 744px) {
+  .logo__david {
+    display: none;
+  }
+}
+@media (min-width: 744px) {
+  .logo__david {
+    display: block;
+  }
+}
+
+@media (min-width: 744px) {
+  .logo__davkchv {
+    display: none;
+  }
+}
+@media (max-width: 744px) {
+  .logo__davkchv {
+    display: block;
+  }
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Noto Serif", serif;
+}
+
+body {
+  background-color: #0E1010;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}

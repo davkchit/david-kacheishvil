@@ -1,0 +1,34 @@
+.header {
+  height: 90px;
+  width: 93%;
+  margin: $auto;
+  @include space-between;
+  align-items: center;
+}
+
+.logo {
+  color: $white;
+  font-size: $f45;
+  font-style: $italic;
+}
+
+.nav {
+  font-size: $f18;
+  text-transform: uppercase;
+}
+
+.nav * {
+  margin-left: 60px;
+  @include large-tablet {
+    @include none-display;
+  }
+}
+
+.nav__getintouch {
+  @include button__getintouch;
+}
+
+.burger:hover {
+  transition: all .55s ease;
+  transform: rotate(360deg);
+}

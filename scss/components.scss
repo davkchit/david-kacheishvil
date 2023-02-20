@@ -1,0 +1,41 @@
+@mixin button__getintouch {
+  font-size: $f18;
+  color:$white;
+  background-color:$grey;
+  padding: 8px 28px;
+  border-radius: 41px;
+  text-transform: lowercase;
+}
+
+@mixin button__viewprojects {
+  width: 168px;
+  height: 29px;
+  background-color: $white;
+  border: solid 1px $black;
+  border-radius: 74px;
+  color: $black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin button__hero__getintouch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 165px;
+    height: 30px;
+    background-color: $grey;
+    border-radius: 74px;
+    margin-left: 20px;
+}
+
+
+@mixin button__viewcode {
+  color: $white;
+  font-size: $f14;
+  text-transform: uppercase;
+  padding: 10px 48px;
+  background-color: $grey;
+  border-radius: 41px;
+}
