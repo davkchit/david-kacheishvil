@@ -10,6 +10,7 @@
     max-width: 588px;
     height: auto;
   }
+
 }
 
 @include large-tablet {
@@ -86,6 +87,31 @@
 
   .main__hero {
     height: auto;
+  }
+}
+
+.project__item {
+  @include tablet {
+    display: block;
+  }
+
+  .project__img {
+    width: 100%;
+    height: 250px;
+  }
+}
+
+.burger {
+  @include large-desktop {
+    @include none-display;
+  }
+  
+  @include desktop {
+    @include none-display;
+  }
+
+  @include large-tablet {
+    @include display-block;
   }
 }
 

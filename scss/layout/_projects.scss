@@ -47,6 +47,10 @@
   @include button__viewcode;
 }
 
+.project__img {
+  max-width: 100%;
+}
+
 .project__img_john {
   background-image: url(../../imgs/img/MovieBox.jpg);
 }

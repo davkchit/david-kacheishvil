@@ -180,22 +180,6 @@
   text-transform: lowercase;
 }
 
-@media (min-width: 1440px) {
-  .burger {
-    display: none;
-  }
-}
-@media (max-width: 1440px) {
-  .burger {
-    display: none;
-  }
-}
-@media (max-width: 1130px) {
-  .burger {
-    display: block;
-  }
-}
-
 .burger:hover {
   -webkit-transition: all 0.55s ease;
   transition: all 0.55s ease;
@@ -337,6 +321,10 @@
   border-radius: 41px;
 }
 
+.project__img {
+  max-width: 100%;
+}
+
 .project__img_john {
   background-image: url(../../imgs/img/MovieBox.jpg);
 }
@@ -425,6 +413,32 @@
     height: auto;
   }
 }
+@media (max-width: 744px) {
+  .project__item {
+    display: block;
+  }
+}
+.project__item .project__img {
+  width: 100%;
+  height: 250px;
+}
+
+@media (min-width: 1440px) {
+  .burger {
+    display: none;
+  }
+}
+@media (max-width: 1440px) {
+  .burger {
+    display: none;
+  }
+}
+@media (max-width: 1130px) {
+  .burger {
+    display: block;
+  }
+}
+
 @media (max-width: 744px) {
   .logo__david {
     display: none;
