@@ -14,9 +14,7 @@
 }
 
 .project__img {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  @include background-image;
 }
 
 .project__img_reverse {
@@ -24,9 +22,8 @@
 }
 
 .project__icons {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  @include justify-content;
+  @include wrap;
   margin-top: 3%;
 }
 

@@ -35,3 +35,24 @@
 @mixin display-block {
     display: block;
 }
+
+@mixin space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin wrap {
+  flex-wrap: wrap;
+}
+
+@mixin background-image {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

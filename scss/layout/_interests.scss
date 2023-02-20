@@ -26,9 +26,7 @@
 }
 
 .interest__block{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include center;
   background-color: $grey;
   border-radius: 25px;
   font-size: $f20;
