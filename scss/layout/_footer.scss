@@ -2,11 +2,11 @@
   font-size: $f18;
   max-width: 405px;
   @include space-between;
-  margin: 2.5% auto;
+  margin: 3% auto;
 }
 
 .footer__text {
   text-align: center;
-  margin: 0 auto 0 auto;
+  margin: 0 auto 3% auto;
   color:$white;
 }

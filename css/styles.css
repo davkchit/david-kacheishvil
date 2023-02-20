@@ -35,12 +35,12 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 2.5% auto;
+  margin: 3% auto;
 }
 
 .footer__text {
   text-align: center;
-  margin: 0 auto 0 auto;
+  margin: 0 auto 3% auto;
   color: #ffffff;
 }
 
@@ -372,9 +372,11 @@
   .main__hero {
     margin-top: 100px;
   }
-  .main_interests,
-.main__projects {
+  .main__projects {
     margin-top: 30px;
+  }
+  .main_interests {
+    margin-top: 60px;
   }
   .main__getintouch {
     margin-top: 90px;
@@ -405,12 +407,38 @@
   }
 }
 @media (max-width: 375px) {
+  .logo__davkchv {
+    font-size: 28px;
+  }
+  .header {
+    height: 60px;
+  }
+  .main__hero {
+    margin-top: 40px;
+  }
   .title,
 .aboutme__title {
     font-size: 28px;
   }
+  .title, .text {
+    margin-bottom: 6%;
+  }
   .main__hero {
     height: auto;
+  }
+  .getintouch__icons * {
+    width: 25px;
+    height: 25px;
+  }
+  .hero__icons * {
+    width: 27px;
+    height: 27px;
+  }
+  .hero__icons .hero__icon:not(:last-child) {
+    margin-left: 5px;
+  }
+  .main_interests {
+    margin-top: 100px;
   }
 }
 @media (max-width: 744px) {
