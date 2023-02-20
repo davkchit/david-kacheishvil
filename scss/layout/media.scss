@@ -8,6 +8,19 @@
   }
 }
 
+.main__aboutme {
+  @include tablet {
+    display: block;
+    text-align: center;
+  }
+}
+
+.aboutme__text {
+  @include tablet {
+    margin: 0 auto;
+  }
+}
+
 .text, .aboutme__text {
   @include large-tablet {
     font-size: $f16;
@@ -27,6 +40,88 @@
 }
  }
 
+.project__item {
+  @include tablet {
+    display: block;
+  }
+
+  .project__img {
+    width: 100%;
+    height: 250px;
+  }
+}
+
 .project__img {
   max-width: 100%;
+}
+
+.main__hero {
+  @include tablet {
+    margin-top: 100px;
+  }
+}
+
+.main__aboutme {
+  @include tablet {
+    margin-top: 100px;
+  }
+}
+
+.aboutme__text {
+  @include tablet {
+    font-size: $f14;
+  }
+}
+
+.main__hero {
+  @include mobile {
+    height: auto;
+  }
+}
+
+.logo__david {
+  @media (min-width:$tablet) {
+    display: block;
+  }
+
+  @media (max-width:$tablet) {
+    display: none;
+  }
+}
+
+.logo__davkchv {
+  @media (min-width:$tablet) {
+    display: none;
+  }
+
+  @media (max-width:$tablet) {
+    display: block;
+  }
+}
+
+.main_interests,.main__projects {
+  @include tablet {
+    margin-top: 30px;
+  }
+}
+
+.main__getintouch {
+  @include tablet {
+    margin-top: 90px;
+    margin-bottom: 150px;
+  }
+}
+
+.interests__blocks {
+  @include tablet {
+    grid-auto-rows: 110px;
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+.hero__iconsbuttons {
+  @include tablet {
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
 }
