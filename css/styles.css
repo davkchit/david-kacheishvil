@@ -407,21 +407,12 @@
   }
 }
 @media (max-width: 375px) {
-  .logo__davkchv {
-    font-size: 28px;
-  }
-  .header {
-    height: 60px;
-  }
   .main__hero {
     margin-top: 40px;
   }
   .title,
 .aboutme__title {
     font-size: 28px;
-  }
-  .title, .text {
-    margin-bottom: 6%;
   }
   .main__hero {
     height: auto;
@@ -489,6 +480,17 @@
   }
 }
 
+@media (max-width: 450px) {
+  .title, .text {
+    margin-bottom: 6%;
+  }
+  .logo__davkchv {
+    font-size: 30px;
+  }
+  .header {
+    height: 60px;
+  }
+}
 * {
   padding: 0px;
   margin: 0px;
